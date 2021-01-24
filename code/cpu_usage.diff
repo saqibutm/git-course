@@ -1,0 +1,12 @@
+--- cpu_usage_old.py	2021-01-24 07:50:15.000000000 +0500
++++ cpu_usage.py	2021-01-24 07:55:31.000000000 +0500
+@@ -3,7 +3,8 @@
+ import psutil
+ 
+ def check_cpu_usage(percent):
+-	usage = psutil.cpu_percent()
++	usage = psutil.cpu_percent(1)
++	print("DEGUG: usage: {}".format(usage))
+ 	return usage < percent
+ if not check_cpu_usage(75):
+ 	print("Error! CPU is overloaded")

@@ -1,0 +1,6 @@
+--- hello_world.txt	2020-10-06 16:26:33.000000000 +0500
++++ hello_world_long.txt	2020-10-06 16:26:46.000000000 +0500
+@@ -1 +1,3 @@
+ Hello World
++
++It's a wonderful day!
