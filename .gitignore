@@ -130,3 +130,6 @@ dmypy.json
 
 # Obsidian
 .obsidian/
+
+# Dropbox
+.DS_Store
