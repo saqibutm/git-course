@@ -59,9 +59,17 @@ Because the amount of text is now longer than what fits on your screen,
 Git automatically uses a paging tool that allows us to scroll using page up, 
 page down, and the arrow keys. 
 ```Script
+# To skip the stagging area.
 git commit -a -m "Added a file"
-git log -p
-git log
+
+# Give the list of the commits
+git log 
+
+# give the details of the patch
+git log -p 
+
 git show commit_id
 git log --stat
 ```
+
+**To. view the changes before adding them**
