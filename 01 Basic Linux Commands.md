@@ -3,3 +3,4 @@ cp -> to copy or rename files
 mdir -> create a empty directory
 ls -> list files and directories
 ls -la -> list all files and directories including hidden with details
+mv -> for moving or renaming files
